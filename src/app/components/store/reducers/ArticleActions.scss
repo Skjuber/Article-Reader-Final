@@ -1,0 +1,16 @@
+.article-action {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+
+  svg {
+    color: rgb(187, 30, 30);
+    font-size: 21px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: rgb(150, 30, 30);
+    }
+  }
+}

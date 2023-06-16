@@ -1,0 +1,74 @@
+$primary-color: #282c34;
+$secondary-color: #61dafb;
+$background-color: #f5f5f5;
+$text-color: #333;
+$button-color: #888;
+$button-hover-color: darken($button-color, 10%);
+$link-color: #337ab7;
+$link-hover-color: darken($link-color, 15%);
+$favorite-color: #ff6347;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+h2 {
+  color: $secondary-color;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 0.5em;
+  margin: 0.5em auto;
+  display: block;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+}
+
+button {
+  color: $text-color;
+  background-color: $button-color;
+  border: none;
+  padding: 0.5em;
+  text-decoration: none;
+  margin: 0.5em 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $button-hover-color;
+  }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5em 0;
+  border-bottom: 1px solid $text-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.favorites {
+  color: $favorite-color;
+}

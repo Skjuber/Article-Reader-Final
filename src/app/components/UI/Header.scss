@@ -1,0 +1,83 @@
+.header {
+  h1 {
+    color: #4b0082;
+    font-size: 50px;
+  }
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  display: none !important;
+}
+
+.css-hyum1k-MuiToolbar-root {
+  padding-left: 0px;
+}
+
+.hide-desktop {
+  display: none !important;
+}
+
+.list-item-menu {
+  display: flex !important;
+  width: 100% !important;
+}
+
+.list-item {
+  max-width: 95px;
+  height: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.css-wx7wi4 svg {
+  width: 24px !important;
+}
+
+.list-item-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 1000px) {
+  .css-ewdv3l {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+  }
+  .css-i4bv87-MuiSvgIcon-root {
+    margin-left: auto;
+  }
+  .list-item-menu {
+    // Styles for the menu container
+
+    .list-item {
+      // Styles for the menu items
+
+      &.active {
+        background-color: #13395e;
+        color: #b6c8d9;
+        box-shadow: 0px 6px 36px rgba(0, 0, 0, 0.16);
+      }
+    }
+  }
+
+  .css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background: #F2F2F2 !important;
+    display: block !important;
+  }
+
+  .hide-desktop {
+    display: flex !important;
+  }
+
+  #hamburger-icon {
+    color: black !important;
+  }
+
+  .MuiDrawer-paperAnchorRight {
+    width: 100%;
+  }
+}
